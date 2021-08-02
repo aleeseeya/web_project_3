@@ -1,0 +1,45 @@
+.cover__content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 1184px;
+  height: 740px;
+  max-width: 100%;
+  min-height: 100%;
+  color: #fffdfd;
+  position: relative;
+  text-decoration: none;
+  background-size: cover;
+  background-image: url(../../../images/cover-route-66.jpg);
+  background-position: center;
+  object-fit: cover;
+}
+
+.cover__content::before {
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.3;
+  position: absolute;
+  background: #2a2c2f;
+  transition: opacity 0.5s ease;
+}
+
+.cover__content:hover::before {
+  opacity: 0.8;
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 320px) {
+  .cover__content {
+    width: 320px;
+    height: 200px;
+  }
+}

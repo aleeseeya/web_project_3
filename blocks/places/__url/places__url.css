@@ -1,0 +1,22 @@
+.places__url {
+  font-size: 12px;
+  line-height: 1.7;
+  color: #aaa;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  padding: 0;
+  margin: 0 0 4px 0;
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 320px) {
+  .places__url {
+    max-width: 288px;
+    margin-bottom: 12px;
+  }
+}

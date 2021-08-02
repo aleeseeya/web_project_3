@@ -1,0 +1,19 @@
+.places__text {
+  max-width: 456px;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.63;
+}
+
+@media (max-width: 768px) {
+  .places__text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 320px) {
+  .places__text {
+    margin: 9% 0 0 5%;
+  }
+}

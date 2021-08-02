@@ -1,0 +1,18 @@
+.places__website {
+  max-width: 456px;
+  margin-bottom: 48px;
+}
+
+@media (max-width: 768px) {
+  .places__website {
+    max-width: 352px;
+  }
+}
+
+@media (max-width: 320px) {
+  .places__website {
+    margin-bottom: 10%;
+    margin-left: 5%;
+    max-width: 288px;
+  }
+}
