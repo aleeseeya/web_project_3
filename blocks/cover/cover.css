@@ -1,19 +1,27 @@
 .cover {
-  margin: 92px 48px 134px 48px;
+  margin: 92px auto;
   padding: 0;
 }
 
-@media (max-width: 1024px) {
-}
-
-@media (max-width: 768px) {
-}
-
-@media (max-width: 320px) {
+@media (min-width: 1024px) and (max-width: 1279px) {
   .cover {
-    max-width: 320px;
-    max-height: 200px;
-    width: 100%;
-    margin: 0 0 15% 0;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .cover {
+    margin-top: 89px;
+    margin-bottom: 89px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .cover {
+    max-width: 100%;
+    margin-top: 64px;
+    margin-bottom: 64px;
   }
 }

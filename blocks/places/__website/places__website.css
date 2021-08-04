@@ -1,18 +1,19 @@
 .places__website {
   max-width: 456px;
-  margin-bottom: 48px;
+  grid-area: website;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1278px) {
   .places__website {
     max-width: 352px;
   }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .places__website {
-    margin-bottom: 10%;
-    margin-left: 5%;
     max-width: 288px;
   }
 }

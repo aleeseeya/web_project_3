@@ -1,17 +1,10 @@
 .places__text-container {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+  max-width: 484px;
+  grid-area: text-container;
 }
 
-@media (max-width: 1024px) {
-}
-
-@media (max-width: 768px) {
-}
-
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 1278px) {
   .places__text-container {
-    max-width: 288px;
+    max-width: 90%;
   }
 }

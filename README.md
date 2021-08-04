@@ -1,20 +1,21 @@
 # Project 3: From Portland to Portland
 
 ### Overview
-* Intro
-* Figma
-* Images
 
-**Intro**
+- Description
+- Technologies & Techniques
+- GitHub Pages
 
-This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+**Description**
 
-**Figma**
+This project is titled From Portland to Portland and centers on responsive web design. The content holds information on traveling across the US and is best viewed on screen sizes ranging from 320px to 1280px.
 
-* [Link to the project on Figma](https://www.figma.com/file/AtbNbstbxWPcMqvF061V0R/Sprint-3%3A-From-Portland-to-Portland-%7C-desktop-%2B-mobile?node-id=0%3A1)
+**Technologies & Techniques**
 
-**Images**
+HTML and CSS are required for this project.
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
+**GitHub Pages**
 
-Good luck and have fun!
+You can find the GitHub Pages link for this project [here](https://tinypng.com/).
+
+Thanks for taking a look!
