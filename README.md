@@ -16,6 +16,6 @@ HTML and CSS are required for this project.
 
 **GitHub Pages**
 
-You can find the GitHub Pages link for this project [here](https://tinypng.com/).
+You can find the GitHub Pages link for this project [here](https://aleeseeya.github.io/web_project_3/index.html).
 
 Thanks for taking a look!
