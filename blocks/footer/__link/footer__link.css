@@ -4,7 +4,6 @@
   line-height: 1.125;
   font-weight: 400;
   text-decoration: none;
-  list-style-type: none;
   transition: opacity 0.1s ease-in-out;
   opacity: 1;
   padding: 0;
@@ -13,12 +12,6 @@
 
 .footer__link:hover {
   opacity: 0.8;
-}
-
-@media (max-width: 1024px) {
-}
-
-@media (max-width: 768px) {
 }
 
 @media (min-width: 320px) and (max-width: 767px) {

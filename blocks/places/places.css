@@ -1,6 +1,5 @@
 .places {
   max-width: 984px;
-  max-height: 80%;
   width: 100%;
   margin: 92px auto;
 }
@@ -21,8 +20,7 @@
 
 @media (min-width: 320px) and (max-width: 767px) {
   .places {
-    max-height: 90%;
     max-width: 100%;
-    margin: 64px 0;
+    margin: 64px auto;
   }
 }

@@ -3,7 +3,6 @@
   font-style: normal;
   font-weight: 400;
   src: url("./Inter-Regular.woff") format("woff");
-  text-rendering: optimizeLegibility;
 }
 
 @font-face {
@@ -11,7 +10,6 @@
   font-style: normal;
   font-weight: 700;
   src: url("./Inter-Bold.woff") format("woff");
-  text-rendering: optimizeLegibility;
 }
 
 @font-face {
@@ -19,5 +17,4 @@
   font-style: normal;
   font-weight: 900;
   src: url("./Inter-Black.woff") format("woff");
-  text-rendering: optimizeLegibility;
 }
