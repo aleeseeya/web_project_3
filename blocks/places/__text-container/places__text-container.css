@@ -3,7 +3,12 @@
   grid-area: text-container;
 }
 
-@media (min-width: 320px) and (max-width: 1278px) {
+@media (min-width: 768px) and (max-width: 1279px) {
+  .places__text-container {
+    margin: 0;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
   .places__text-container {
     max-width: 90%;
     margin: 0 16px 0 16px;

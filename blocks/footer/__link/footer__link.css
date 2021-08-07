@@ -16,8 +16,9 @@
 
 @media (min-width: 320px) and (max-width: 767px) {
   .footer__link {
+    display: flex;
     font-size: 24px;
     line-height: 1;
-    padding-bottom: 19.5%;
+    margin: 0 0 32px 0;
   }
 }
