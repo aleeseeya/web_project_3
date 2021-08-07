@@ -3,11 +3,13 @@
   padding: 0;
   margin: 0;
   list-style-type: none;
+  align-items: flex-end;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
   .footer__links {
     flex-direction: column;
     justify-content: space-between;
+    align-items: flex-start;
   }
 }
